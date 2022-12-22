@@ -28,6 +28,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2367a5b3-c7e0-46c0-8806-8a501ea780d2"
+      }
+    },
+    "owner": "davidbenge"
   }
 }
