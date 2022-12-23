@@ -1,13 +1,14 @@
 {
   "expo": {
-    "name": "adobe-dep-academy-app",
-    "slug": "adobe-dep-academy-app",
+    "name": "Adobe DEP Academy App",
+    "slug": "Adobe DEP Academy App",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/images/icon.png",
+    "scheme": "adobe-dep-academy",
+    "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/images/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -22,18 +23,13 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/images/favicon.png"
     },
-    "extra": {
-      "eas": {
-        "projectId": "2367a5b3-c7e0-46c0-8806-8a501ea780d2"
-      }
-    },
-    "owner": "davidbenge"
+    "projectId": "2367a5b3-c7e0-46c0-8806-8a501ea780d2"
   }
 }
